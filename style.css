@@ -1,0 +1,68 @@
+.iframeContainer {
+    padding: 20px;
+    border: 1px solid #e3e3e3;
+}
+
+
+/* Sticky Footer rules (https://getbootstrap.com/examples/sticky-footer/) */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 10px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+#footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+#footer a {
+    color: #55c7c1;
+}
+
+.navbar-brand {
+    font-family: 'Serif', cursive;
+    font-size: 35px !important;
+}
+
+.header-font {
+    font-family: 'Abril Fatface', cursive !important;
+}
+
+
+#poverty-obesity,
+
+#age-obesity,
+
+#income-obesity {
+    display: none;
+}
+
+.card-header {
+    background-color: #CA4E19 !important;
+}
+
+.card-inactive {
+    font-weight: lighter;
+    fill: #c9c9c9;
+    transition: fill 0.3s ease-out;
+}
+
+[data-toggle=buttons]>.btn input[type=radio],
+[data-toggle=buttons]>.btn-group>.btn input[type=radio] {
+    position: absolute;
+    clip: rect(0,0,0,0);
+    pointer-events: none;
+}
